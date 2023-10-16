@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+
+  padding: 0;
+  background-color: #caf0f8;
+  background-image: linear-gradient(93deg, #ffffff, #007bac);
+  /* background-image: url(https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1600); */
+  /* background-image: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-repeat: no-repeat;
+  background-blend-mode:overlay; */
+}
+/* .bg_image {
+  opacity: 0.3;
+} */
+.main {
+  padding: 0px 40px 0px 30px;
+}
+
+.main h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #03045e;
+  font-display: inherit;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.search input {
+  padding: 10px 10px;
+  border: 0;
+  background-color: #fff;
+  color: black;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.search button {
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  border: 4px solid #04445f;
+  border-radius: 14px;
+
+  cursor: pointer;
+}
+
+.search button img {
+  height: 30px;
+  width: 30px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.type {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.parent_spec_details {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spec_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  height: 300px;
+  width: 580px;
+  /* border: 3px none black;
+  border-radius: 25px; */
+  font-size: 20px;
+
+  background-color: #90e0ef;
+  box-shadow: 10px 10px 5px 3px #518ba9;
+}
+
+.spec_details h3 {
+  font-family: "Lato", sans-serif;
+}
+
+.spec_details p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

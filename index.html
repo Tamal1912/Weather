@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Weather</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <img
+      class="bg_image"
+      src="https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      alt=""
+    /> -->
+    <div class="main">
+      <h2>Weather Check</h2>
+    </div>
+
+    <div class="search">
+      <label
+        for=""
+        style="
+          font-family: Lato, sans-serif;
+          font-weight: 600;
+          font-size: 30px;
+          margin-top: 6px;
+          padding: 0;
+          color: #03045e;
+        "
+        >Location</label
+      >
+      <input class="ip_box"text" placeholder="Enter Any Location"
+      spellcheck="false" />
+      <button class="btn">
+        <img
+          src="https://webstockreview.net/images/search-icon-png-8.png"
+          alt=""
+          height="10px"
+        />
+      </button>
+    </div>
+    <div class="details">
+      <h3>
+        <p class="temp"></p>
+        <p class="type"></p>
+      </h3>
+    </div>
+
+    <div class="parent_spec_details">
+      <div class="spec_details">
+        <div class="col1">
+          <div class="TIME">
+            <h3>Time</h3>
+            <p class="time"></p>
+          </div>
+          <div class="h">
+            <h3>Humidity</h3>
+            <p class="humidity"></p>
+          </div>
+          <div class="f">
+            <h3>Feels Like</h3>
+            <p class="felt"></p>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="MAX">
+            <h3>Max Tempareture</h3>
+            <p class="max"></p>
+          </div>
+          <div class="MIN">
+            <h3>Min Tempareture</h3>
+            <p class="min"></p>
+          </div>
+
+          <div class="SPPED">
+            <h3>Wind Speed</h3>
+            <p class="speed"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
