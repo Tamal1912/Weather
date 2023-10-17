@@ -21,7 +21,7 @@ async function check_weather(city){
     const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`;
    
     const weather_data=await fetch(`${url}`).then(Response=>Response.json());
-    console.log(weather_data);
+    
    
     temp.innerHTML=`${weather_data.main.temp}°C`;
     feel.innerHTML=`${weather_data.main.feels_like}°C`;
@@ -30,10 +30,6 @@ async function check_weather(city){
     min.innerHTML=`${weather_data.main.temp_min}°C`
     type.innerHTML=`${weather_data.weather[0].description}.`.toUpperCase()
     speed.innerHTML=`${weather_data.wind.speed} Km/h`
-
-
-    
- 
 }
 
 btn.addEventListener('click',()=>{
